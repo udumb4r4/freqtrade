@@ -17,6 +17,10 @@ freqtrade-profit-plot.html
 freqtrade/rpc/api_server/ui/*
 build_helpers/ta-lib/*
 
+# Allow strategies and scripts
+!user_data/strategies
+!user_data/scripts
+
 # Macos related
 .DS_Store
 
